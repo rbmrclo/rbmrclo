@@ -1,0 +1,196 @@
+body {
+  /* background-color: rgba(236, 238, 241, 1); */
+  font-family: 'Oswald', sans-serif;
+  /* color: rgba(144, 153, 163, 1); */
+  background-color: white;
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-weight: 300;
+  color: rgba(119, 119, 119, 1);
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: .75em;
+}
+
+.light {
+  opacity: .3;
+}
+
+.v-spacer20 {
+  height: 20px;
+}
+
+#header {
+
+}
+
+#header h1 {
+  margin: 0;
+  padding: 0 5px;
+  font-size: 5em;
+  font-weight: 300;
+  color: rgba(119, 119, 119, .7);
+  transition: color .5s;
+  -webkit-transition: color .5s;
+  -moz-transition: color .5s;
+}
+
+#header h1:hover {
+  color: rgba(100, 100, 100, 1);
+  transition: color .5s;
+  -webkit-transition: color .5s;
+  -moz-transition: color .5s;
+}
+
+#content {
+  margin-top: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+#description {
+  padding: 0px 20px;
+}
+
+.top-sector-cubes {
+  background: url('../images/top-cubes.jpg') repeat-x;
+  width: 100%;
+  height: 130px;
+  display: block;
+  position: fixed;
+  bottom: 60;
+}
+
+.content-sector-cubes {
+  background: url('../images/cubes-body.jpg') repeat;
+  width: 100%;
+  height: 60px;
+  display: block;
+  position: fixed;
+  bottom: 0;
+}
+
+strong, a {
+  padding: 5px;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(119, 119, 119, 1);
+}
+
+#name a {
+  background: rgba(0, 143, 107, .15);
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+}
+
+#name a:hover {
+  background: rgba(0, 143, 107, .8); 
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+  color: white;
+  cursor: pointer;
+}
+
+#company a {
+  background: rgba(255, 119, 0, .1);
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+}
+
+#company a:hover {
+  background: rgba(255, 119, 0, .8); 
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+  color: white;
+}
+
+#github a, #coderwall a {
+  background: rgba(80, 80, 80, .1);
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+}
+
+#github a:hover , #coderwall a:hover{
+  background: rgba(80, 80, 80, .5); 
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+  cursor: pointer;
+  color: white;
+}
+
+#github a:hover {
+  background: rgba(80, 80, 80, .8)
+}
+
+#twitter a {
+  background: rgba(0, 160, 209, .1);
+}
+
+#facebook a {
+  background: rgba(59, 89, 152, .1);
+}
+
+#twitter a:hover {
+  background: rgba(0, 160, 209, .8);
+  color: white;
+}
+
+#facebook a:hover {
+  background: rgba(59, 89, 152, .8);
+  color: white;
+}
+
+#facebook a, #twitter a {
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+}
+
+#facebook a:hover , #twitter a:hover{
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+  cursor: pointer;
+}
+
+#email a {
+  background: rgba(255, 42, 53, .1);
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+}
+
+#email a:hover {
+  background: rgba(255, 42, 53, .8);
+  color: white;
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+  cursor: pointer;
+}
+
+
+#skype a {
+  background: rgba(0, 175, 240, .1);
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+}
+
+#skype a:hover {
+  background: rgba(0, 175, 240, .8);
+  color: white;
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+  cursor: pointer;
+}
