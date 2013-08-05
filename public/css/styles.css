@@ -12,14 +12,11 @@ p {
   letter-spacing: 1px;
   text-align: left;
   font-size: .75em;
+  line-height: 1.4em;
 }
 
 .light {
   opacity: .3;
-}
-
-.v-spacer20 {
-  height: 20px;
 }
 
 #header {
@@ -45,7 +42,7 @@ p {
 }
 
 #content {
-  margin-top: 4em;
+  margin-top: 5em;
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
@@ -62,6 +59,8 @@ p {
   display: block;
   position: fixed;
   bottom: 60;
+  z-index: -9999;
+  opacity: .3;
 }
 
 .content-sector-cubes {
@@ -70,6 +69,8 @@ p {
   height: 60px;
   display: block;
   position: fixed;
+  z-index: -9999;
+  opacity: .3;
   bottom: 0;
 }
 
@@ -80,51 +81,42 @@ strong, a {
   color: rgba(119, 119, 119, 1);
 }
 
-#name a {
-  background: rgba(0, 143, 107, .15);
+#name a, #company a, #github a, #coderwall a, #twitter a, #facebook a, #email a, #skype a {
   transition: background .5s;
   -webkit-transition: background .5s;
   -moz-transition: background .5s;
+}
+
+#name a:hover, #company a:hover, #github a:hover, #coderwall a:hover, #twitter a:hover, #facebook a:hover, #email a:hover, #skype a:hover {
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+  color: white;
+  cursor: pointer;
+}
+
+#name a {
+  background: rgba(0, 143, 107, .15);
 }
 
 #name a:hover {
   background: rgba(0, 143, 107, .8); 
-  transition: background .5s;
-  -webkit-transition: background .5s;
-  -moz-transition: background .5s;
-  color: white;
-  cursor: pointer;
 }
 
 #company a {
   background: rgba(255, 119, 0, .1);
-  transition: background .5s;
-  -webkit-transition: background .5s;
-  -moz-transition: background .5s;
 }
 
 #company a:hover {
   background: rgba(255, 119, 0, .8); 
-  transition: background .5s;
-  -webkit-transition: background .5s;
-  -moz-transition: background .5s;
-  color: white;
 }
 
 #github a, #coderwall a {
   background: rgba(80, 80, 80, .1);
-  transition: background .5s;
-  -webkit-transition: background .5s;
-  -moz-transition: background .5s;
 }
 
-#github a:hover , #coderwall a:hover{
+#coderwall a:hover {
   background: rgba(80, 80, 80, .5); 
-  transition: background .5s;
-  -webkit-transition: background .5s;
-  -moz-transition: background .5s;
-  cursor: pointer;
-  color: white;
 }
 
 #github a:hover {
@@ -141,56 +133,42 @@ strong, a {
 
 #twitter a:hover {
   background: rgba(0, 160, 209, .8);
-  color: white;
 }
 
 #facebook a:hover {
   background: rgba(59, 89, 152, .8);
-  color: white;
-}
-
-#facebook a, #twitter a {
-  transition: background .5s;
-  -webkit-transition: background .5s;
-  -moz-transition: background .5s;
-}
-
-#facebook a:hover , #twitter a:hover{
-  transition: background .5s;
-  -webkit-transition: background .5s;
-  -moz-transition: background .5s;
-  cursor: pointer;
 }
 
 #email a {
   background: rgba(255, 42, 53, .1);
-  transition: background .5s;
-  -webkit-transition: background .5s;
-  -moz-transition: background .5s;
 }
 
 #email a:hover {
   background: rgba(255, 42, 53, .8);
-  color: white;
-  transition: background .5s;
-  -webkit-transition: background .5s;
-  -moz-transition: background .5s;
-  cursor: pointer;
 }
 
 
 #skype a {
   background: rgba(0, 175, 240, .1);
-  transition: background .5s;
-  -webkit-transition: background .5s;
-  -moz-transition: background .5s;
 }
 
 #skype a:hover {
   background: rgba(0, 175, 240, .8);
-  color: white;
-  transition: background .5s;
-  -webkit-transition: background .5s;
-  -moz-transition: background .5s;
-  cursor: pointer;
 }
+
+
+/* Vertical Spacers */
+
+.v-spacer10 {
+  height: 10px;
+}
+
+.v-spacer15 {
+  height: 15px;
+}
+
+.v-spacer20 {
+  height: 20px;
+}
+
+/* End of Vertical Spacers */
