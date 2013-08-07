@@ -45,6 +45,7 @@ h4:hover {
 }
 
 section {
+  width: 900px;
   padding-top: 1.7em;
   padding-left: 200px;
   overflow: hidden;
