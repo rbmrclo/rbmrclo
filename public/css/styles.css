@@ -1,6 +1,8 @@
 body {
   /* background-color: rgba(236, 238, 241, 1); */
-  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
   /* color: rgba(144, 153, 163, 1); */
   background-color: white;
 }
@@ -8,11 +10,20 @@ body {
 p {
   font-family: 'Lora', serif;
   font-weight: 300;
-  color: rgba(119, 119, 119, 1);
+  /* color: rgba(119, 119, 119, 1); */
+  color: black;
   letter-spacing: 1px;
   text-align: left;
   font-size: .75em;
   line-height: 1.4em;
+}
+
+strong, a {
+  padding: 5px;
+  font-weight: 300;
+  text-decoration: none;
+  /* color: rgba(119, 119, 119, 1); */
+  color: black;
 }
 
 h4 {
@@ -33,12 +44,42 @@ h4:hover {
   -moz-transition: color .5s;
 }
 
-.light {
-  opacity: .3;
+section {
+  padding-top: 1.7em;
+  padding-left: 200px;
+  overflow: hidden;
+  padding-bottom: 2em;
 }
 
-#header {
+section aside {
+  width: 200px;
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 40px;
+  margin-left: -200px;
+  text-align: right;
+}
 
+section aside dl {
+  font-size: 0.8em;
+}
+
+
+.light {
+  opacity: .2;
+}
+
+.holder {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+
+#header {
+  margin-bottom: 50px;
 }
 
 #header h1 {
@@ -59,16 +100,21 @@ h4:hover {
   -moz-transition: color .5s;
 }
 
+#header img {
+  max-width: 100px;
+  position: relative;
+}
+
 #content {
-  margin-top: 4em;
+  margin-top: 8em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
-  min-height: 800px;
+  max-width: 950px;
+  min-height: 600px;
 }
 
 #description {
-  padding: 0px 20px;
+  margin-top: 10em;
 }
 
 .top-sector-cubes {
@@ -89,15 +135,8 @@ h4:hover {
   display: block;
   position: fixed;
   z-index: -9999;
-  opacity: .3;
+  opacity: .2;
   bottom: 0;
-}
-
-strong, a {
-  padding: 5px;
-  font-weight: 700;
-  text-decoration: none;
-  color: rgba(119, 119, 119, 1);
 }
 
 #name a, #company a, #github a, #coderwall a, #twitter a, #facebook a, #email a, #skype a {
@@ -216,6 +255,45 @@ strong, a {
   color: #434343;
   cursor: pointer;
 }
+
+/* Top Bar */
+
+#top {
+  left: 0;
+  letter-spacing: 0px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0px 50px;
+}
+
+#top .quad.bg {
+  background: #fff;
+  width: 100%;
+  padding: 25px 0px 25px;
+}
+
+#top .quad {
+  float: left;
+  margin-right: 4%;
+  width: 22%;
+  text-align: center;
+}
+
+.quad a {
+  padding: 25px 0px;
+}
+
+#nav-pills a:hover {
+  padding-bottom: 10px;
+  border-bottom: 5px solid rgba(52, 152, 219, 1);
+}
+
+#top .quad.right {
+  margin: 0;
+}
+
+/* End of Top Bar */
 
 /* Vertical Spacers */
 
