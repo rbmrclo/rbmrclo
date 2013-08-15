@@ -243,7 +243,7 @@ footer p, footer small {
 
 
 .button {
-  width: 100px;
+  width: 200px;
   padding: 13px 35px;
   position: absolute;
   margin-top: 20px;
@@ -277,10 +277,20 @@ footer p, footer small {
   -webkit-transition: background .2s ease-in-out;
 }
 
+.button:after {
+  content: 'GET IN TOUCH';
+}
+
 .button:hover {
   background: #b5b5b5;
   color: #434343;
   cursor: pointer;
+  text-transform: lowercase;
+  width: 200px;
+}
+
+.button:hover:after {
+  content: 'hello@robbiemarcelo.com'
 }
 
 /* Top Bar */
