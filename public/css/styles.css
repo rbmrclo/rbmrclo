@@ -69,7 +69,7 @@ section aside dl {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -137,7 +137,7 @@ footer p, footer small {
   margin-left: auto;
   margin-right: auto;
   max-width: 950px;
-  min-height: 600px;
+  min-height: 650px;
 }
 
 #description {
@@ -185,7 +185,7 @@ footer p, footer small {
 }
 
 #name a:hover {
-  background: rgba(0, 143, 107, .8); 
+  background: rgba(0, 143, 107, .8);
 }
 
 #company a {
@@ -193,7 +193,7 @@ footer p, footer small {
 }
 
 #company a:hover {
-  background: rgba(255, 119, 0, .8); 
+  background: rgba(255, 119, 0, .8);
 }
 
 #github a, #coderwall a {
@@ -201,7 +201,7 @@ footer p, footer small {
 }
 
 #coderwall a:hover {
-  background: rgba(80, 80, 80, .5); 
+  background: rgba(80, 80, 80, .5);
 }
 
 #github a:hover {
@@ -339,3 +339,6 @@ footer p, footer small {
 
 
 /* End of Vertical Spacers */
+.clearfix {
+  clear: both;
+}
