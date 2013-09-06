@@ -68,14 +68,13 @@ section aside dl {
   font-size: 0.8em;
 }
 
-footer {
-  position: relative;
+.footer {
+  /*position: relative;*/
   margin: 0px auto;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 
-footer p, footer small {
-  text-align: center;
+.footer p, .footer small {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -339,4 +338,8 @@ footer p, footer small {
 /* End of Vertical Spacers */
 .clearfix {
   clear: both;
+}
+
+.copyright {
+  font-size: .8em;
 }
