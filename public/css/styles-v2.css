@@ -1,0 +1,14 @@
+* {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+  padding: 0;
+}
+
+.navbar {
+  background: white;
+  padding: 20px 0px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 0px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 0px rgba(0,0,0,0.075);
+}
