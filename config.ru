@@ -1,4 +1,4 @@
-latest_version = Dir["public/versions/*"][-1]
+latest_version = Dir["public/versions/*"].sort[-1]
 latest_index = latest_version + '/index.html'
 
 use Rack::Static, 

@@ -1,5 +1,5 @@
 * {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Oxygen', sans-serif !important;
 }
 
 .container {
@@ -8,7 +8,57 @@
 
 .navbar {
   background: white;
-  padding: 20px 0px;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 0px rgba(0,0,0,0.075);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 0px rgba(0,0,0,0.075);
+  padding: 20px 5px;
+  margin: 0;
+  /*-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 0px rgba(0,0,0,0.075);*/
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 0px rgba(0,0,0,0.075);*/
+}
+
+h1.navbar-brand {
+  margin: 0px 10px;
+  font-size: 4em;
+  letter-spacing: -1.5pt;
+  font-weight: 300;
+}
+
+.v-spacer-50 {
+  height: 50px;
+}
+
+.footer {
+  position: relative;
+  padding: 50px 10px;
+  margin: 0;
+  border-top: 1px solid rgba(20, 20, 20, .1);
+  border-bottom: 1px solid rgba(20, 20, 20, .1);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),4px 0px 0px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),4px 0px 0px rgba(0,0,0,0.075);
+}
+
+#social-links {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+}
+
+#social-links ul li {
+  float: left;
+  width: 50px;
+  height: 30px;
+  margin: 2px;
+  text-align: center;
+  background-color: red;
+  list-style-type: none;
+}
+
+.footer p {
+  text-align: center;
+}
+
+.content {
+  background: rgb(31, 166, 122);
+  position: relative;
+  min-height: 500px;
+  margin: 0;
 }
